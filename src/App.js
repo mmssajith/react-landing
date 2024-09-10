@@ -58,20 +58,8 @@ function App() {
         >
           <Router basename="/">
             <Routes>
-              <Route path="/demos" element={<Demo />} />
-              <Route path="/landing1" element={<Landing1 />} />
-              <Route path="/landing2" element={<Landing2 />} />
-              <Route path="/landing3" element={<Landing3 />} />
-              <Route path="/landing4" element={<Landing4 />} />
-              <Route path="/landing5" element={<Landing5 />} />
-              <Route path="/landing6" element={<Landing6 />} />
-              <Route path="/landing7" element={<Landing7 />} />
-              <Route path="/landing8" element={<Landing8 />} />
-              <Route path="/landing9" element={<Landing9 />} />
-              <Route path="/landing10" element={<Landing10 />} />
-              <Route path="/landing11" element={<Landing11 />} />
-              <Route path="/landing12" element={<Landing12 />} />
-              <Route path="/" element={<Navigate to="/demos" />} />
+              <Route path="/" element={<Landing10 />} />
+              <Route path="*" element={<Navigate to="/" />} />
               {/* <Route component={Error} /> */}
             </Routes>
           </Router>
